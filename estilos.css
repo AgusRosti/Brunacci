@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Mochiy+Pop+One&family=Wix+Madefor+Display&display=swap');
+
+:root{
+    --color1: #003E1F;
+    --color2: #B8B42D;
+    --color3: #00250b;
+    --color4: #e6f1c2;
+    --font1: 'Bebas Neue', sans-serif;
+    --font2: 'Wix Madefor Display', sans-serif;
+    --font3: 'Mochiy Pop One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--font2);
+    color: var(--color3);
+}
+
+.navbar-toggler{
+    font-size: 1.2rem;
+    border: none;
+}
+
+.nav-link{
+    font-family: var(--font1);
+    color: var(--color1) !important;
+    letter-spacing: 1px;
+}
+
+.hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.back{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-image: url(./img/plasticopedacitos.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.hero-slogan{
+    background-color: #0510148e;
+    padding: 20px;
+    font-family: var(--font1);
+    font-size: 1.5rem;
+    color: var(--color4);
+    letter-spacing: 4px;
+}
+
+.nosotros{
+    display: flex;
+    flex-direction: column;
+}
+
+.nosotros-flex{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px;
+    background-color: var(--color1);
+}
+
+.flex-t{
+    font-size: 1.1rem;
+    color: var(--color4);
+}
+
+.flex-p{
+    font-family: var(--font1);
+    color: var(--color2);
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    line-height: 25px;
+}
+
+.d-block{
+    height: 250px;
+}
+
+.acerca-p{
+    padding: 0px 20px;
+}
+
+.acerca-t{
+    margin-top: 40px;
+    background-color: var(--color2);
+    color: var(--color1);
+    letter-spacing: 2px;
+    padding: 10px 30px;
+    text-align: center;
+    font-family: var(--font1);
+}
+
+.servicios{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.boton-pres{
+    padding: 20px 15px;
+    margin-inline: 20px;
+    border: 2px solid var(--color2);
+    font-family: var(--font1);
+    color: var(--color2);
+    text-align: center;
+    text-shadow: 1px 1px 1px var(--color3);
+    line-height: 20px;
+    letter-spacing: 2px;
+    font-size: 1.2rem;
+}
+
+.boton-pres:hover{
+    color: var(--color2);
+    text-decoration: underline;
+}
+
+.servicios-t{
+    padding: 10px 15px;
+    font-family: var(--font1);
+    color: var(--color1);
+    font-size: 1.7rem;
+}
+
+.servicios-st{
+    font-family: var(--font1);
+    color: var(--color2);
+    text-align: center;
+    font-size: 1.9rem;
+}
+
+.cards-compra{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4,
+.card5,
+.card6,
+.card7{
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.card1 .card-title,
+.card2 .card-title,
+.card3 .card-title,
+.card4 .card-title,
+.card5 .card-title,
+.card6 .card-title,
+.card7 .card-title{
+    margin-bottom: 20px;
+    font-family: var(--font1);
+    color: var(--color4);
+    text-shadow: -2px 2px 1px var(--color1);
+    letter-spacing: 1px;
+    font-size: 2rem;
+    line-height: 30px;
+}
+
+.card1 a,
+.card2 a,
+.card3 a,
+.card4 a,
+.card5 a,
+.card6 a,
+.card7 a{
+    padding: 5px 10px;
+    margin-block: 55px;
+    background-color: rgba(3, 2, 2, 0.445);
+    border: 1px solid var(--color4);
+    color: var(--color4);
+    text-shadow: 1px 1px 1px var(--color3);
+    font-family: var(--font1);
+    letter-spacing: 1.5px;
+}
+
+.card1{
+    background-image: url(./img/bancos.jpg);
+}
+
+.card2{
+    background-image: url(./img/macetas.jpg);
+}
+
+.card3{
+    background-image: url(./img/contenedores.jpg);
+}
+
+.card4{
+    background-image: url(./img/tanques.jpg);
+}
+
+.card5{
+    background-image: url(./img/mesa.jpg);
+}
+
+.card6{
+    background-image: url(./img/333847548_575457341185497_5799316053085953434_n.jpg);
+}
+
+.card7{
+    background-image: url(./img/obrador.jpg);
+}
+
+.reforma{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color1);
+
+}
+
+.reforma-t{
+    font-family: var(--font1);
+    color: var(--color4);
+    padding: 20px 20px 5px;
+    font-size: 1.7rem;
+}
+
+.carousel-item img{
+    height: 350px;
+    margin-bottom: 20px;
+    padding-inline: 20px;
+}
+
+.btn-wsp{
+    z-index: 3;
+    position: fixed; 
+    background-color:  #00bb2d;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    bottom: 10px;
+    right: 15px;
+    text-align: center;
+    transition: all 1s ease-in-out;
+}
+
+.bi-whatsapp{
+    font-size: 30px;
+    color: white;
+    transition: all 1s ease-in-out;
+}
+
+
