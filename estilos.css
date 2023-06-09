@@ -27,6 +27,8 @@
     font-family: var(--font1);
     color: var(--color1) !important;
     letter-spacing: 1px;
+    font-size: 1.3rem;
+    padding: 5px 0px;
 }
 
 .hero{
@@ -263,7 +265,7 @@ h1{
 
 .place{
     border: 2px solid var(--color3);
-    padding: 5px;
+    padding: 5px 15px;
 }
 
 .form-radio{
@@ -321,7 +323,7 @@ h1{
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    bottom: 10px;
+    bottom: 20px;
     right: 15px;
     text-align: center;
     transition: all 1s ease-in-out;
@@ -333,4 +335,73 @@ h1{
     transition: all 1s ease-in-out;
 }
 
+.footer-info{
+    background-color: var(--color4);
+    padding: 50px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
 
+.foot-block{
+    padding-bottom: 20px;
+}
+
+.flex-info{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.info-tit{
+    font-family: var(--font1);
+    letter-spacing: 1px;
+    font-size: 1.8rem;
+    color: var(--color1);
+}
+
+.info-text{
+    font-family: var(--font2);
+    font-size: 1.2rem;
+    letter-spacing: .5px;
+    color: var(--color1)
+}
+
+.link-mapa{
+    color: var(--color2);
+    text-decoration: underline;
+}
+
+.cont-bi{
+    font-size: 1.5rem;
+    margin-right: 20px;
+}
+
+.redes-info1{
+    display: flex;
+    justify-content: center;
+}
+
+.redes-info{
+    display: flex;
+    gap: 50px;
+}
+
+.redes-info .bi{
+    font-size: 1.8rem;
+}
+
+.flex-info2{
+    display: flex;
+    justify-content: center;
+}
+
+.copy-r{
+    display: flex;
+    gap: 5px;
+    font-size: .9rem;
+}
+
+.btn-up{
+    display: none1q;
+}
